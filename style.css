@@ -1,0 +1,519 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(188, 248, 248);
+}
+
+div {
+    position: relative;
+    margin: auto;
+}
+
+div#corpo {
+    background-color: rgb(241, 241, 7);
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+}
+
+div#bolha01 {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 25px;
+    height: 28px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.212) inset;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+
+div#bolha02 {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    width: 10px;
+    height: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.212) inset;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+
+div#bolha03 {
+    position: absolute;
+    top: 7%;
+    right: 4%;
+    width: 22px;
+    height: 25px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.212) inset;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+
+div#bolha04 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 15px;
+    height: 17px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.212) inset;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+
+div#bolha05 {
+    position: absolute;
+    top: 80%;
+    left: 9%;
+    width: 32px;
+    height: 35px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.212) inset;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+
+div#bolha06 {
+    position: absolute;
+    top: 67%;
+    right: 9%;
+    width: 32px;
+    height: 35px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.212) inset;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+
+div#bolha07 {
+    position: absolute;
+    top: 87%;
+    right: 13%;
+    width: 15px;
+    height: 17px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.212) inset;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+
+div#olho01 {
+    position: absolute;
+    left: 18%;
+    top: 2%;
+    background-color: white;
+    height: 110px;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+div#detalhe-olho {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    height: 60px;
+    width: 40px;
+    background-image: linear-gradient(to bottom, rgb(37, 162, 219), aqua);
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+div#preto-olho {
+    position: absolute;
+    top: 24%;
+    left: 20%;
+    width: 27px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+div#brilho-olho01 {
+    background-color: rgba(255, 255, 255, 0.925);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+div#brilho-olho02 {
+    background-color: rgba(255, 255, 255, 0.925);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+div#brilho-olho03 {
+    background-color: rgba(255, 255, 255, 0.925);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+div#brilho-olho04 {
+    background-color: rgba(255, 255, 255, 0.925);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+div#olho02 {
+    position: absolute;
+    right: 18%;
+    top: 2%;
+    background-color: white;
+    height: 110px;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+div#detalhe-olho02 {
+    position: absolute;
+    top: 25%;
+    right: 30%;
+    height: 60px;
+    width: 40px;
+    background-image: linear-gradient(to bottom, rgb(37, 162, 219), aqua);
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+div#preto-olho02 {
+    position: absolute;
+    top: 24%;
+    right: 20%;
+    width: 27px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+div#fundo-cilios01 {
+    position: unset;
+    transform: translate(-40px, -20px);
+    width: 60px;
+    height: 20px;
+    background-color: rgb(241, 241, 7);
+    border: 3px solid black;
+    border-top-left-radius:90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom: none;
+}
+
+div#fundo-cilios02 {
+    position: unset;
+    transform: translate(40px, -43px);
+    width: 60px;
+    height: 20px;
+    background-color: rgb(241, 241, 7);
+    border: 3px solid black;
+    border-top-left-radius:80px;
+    border-top-right-radius: 80px;
+    border-bottom: none;
+}
+
+div#cilios01 {
+    position: absolute;
+    top: 47%;
+    left: 15%;
+    transform: rotate(335deg);
+    width: 6px;
+    height: 20px;
+    background-color: black;
+}
+
+div#cilios02 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: rotate(360deg);
+    width: 6px;
+    height: 20px;
+    background-color: black;
+}
+
+div#cilios03 {
+    position: absolute;
+    top: 28%;
+    left: 70%;
+    transform: rotate(200deg);
+    width: 6px;
+    height: 20px;
+    background-color: black;
+}
+
+div#cilios04 {
+    position: absolute;
+    top: 47%;
+    left: 15%;
+    transform: rotate(335deg);
+    width: 6px;
+    height: 20px;
+    background-color: black;
+}
+
+div#cilios05 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: rotate(360deg);
+    width: 6px;
+    height: 20px;
+    background-color: black;
+}
+
+div#cilios06 {
+    position: absolute;
+    top: 28%;
+    left: 70%;
+    transform: rotate(200deg);
+    width: 6px;
+    height: 20px;
+    background-color: black;
+}
+
+div#nariz {
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    height: 28px;
+    width: 20px;
+    background-color: rgb(252, 252, 65);
+    border: 3px solid black;
+    border-radius: 50%;
+    border-bottom: none;
+}
+
+div#boca {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    background-color: darkred;
+    width: 150px;
+    height: 130px;
+}
+
+div#fundo-boca {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(119, 2, 2);
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+div#dente01 {
+    position: absolute;
+    top: 14%;
+    left: 55%;
+    background-color: white;
+    width: 30px;
+    height: 35px;
+}
+
+div#dente02 {
+    position: absolute;
+    top: 14%;
+    left: 26%;
+    background-color: white;
+    width: 30px;
+    height: 35px;
+}
+
+div#lingua01 {
+    margin-top: -35px;
+    margin-left: 70px;
+    background-color:rgb(250, 147, 165);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-bottom-right-radius: 30px;
+    border: 3px solid  palevioletred;
+}
+
+div#lingua02 {
+    margin-top: -35px;
+    margin-left: 43px;
+    background-color:rgb(250, 147, 165);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-bottom-left-radius: 30px;
+    border: 3px solid  palevioletred;
+}
+
+div#contraste-boca {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 150px;
+    height: 20px;
+    background-color: rgb(241, 241, 7);
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%; 
+}
+
+div#bochecha01 {
+    position: absolute;
+    top: 46%;
+    left: 13%;
+    width: 30px;
+    height: 20px;
+    background-color: rgba(247, 143, 6, 0.432);
+    border-radius: 50%;
+    border: 3px solid rgb(255, 81, 0);
+    border-bottom: transparent;
+}
+
+div#bochecha02 {
+    position: absolute;
+    top: 46%;
+    right: 13%;
+    width: 30px;
+    height: 20px;
+    background-color: rgba(247, 143, 6, 0.432);
+    border-radius: 50%;
+    border: 3px solid rgb(255, 81, 0);
+    border-bottom: transparent;
+}
+
+div#bola-bochecha01 {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 81, 0);
+    border-radius: 50%;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+div#bola-bochecha02 {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 81, 0);
+    border-radius: 50%;
+    margin-right: 4px;
+    margin-top: -3px;
+}
+
+div#bola-bochecha03 {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 81, 0);
+    border-radius: 50%;
+    margin-top: 1px;
+    margin-left: 7px;
+}
+
+div#bola-bochecha04 {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 81, 0);
+    border-radius: 50%;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+div#bola-bochecha05 {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 81, 0);
+    border-radius: 50%;
+    margin-right: 4px;
+    margin-top: -3px;
+}
+
+div#bola-bochecha06 {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 81, 0);
+    border-radius: 50%;
+    margin-top: 1px;
+    margin-left: 7px;
+}
+
+
+div#short {
+    width: 250px;
+    height: 25px;
+    background-color: white;
+}
+
+div#cont-gravata01 {
+    position: relative;
+    top: -10px;
+    left: -30px;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    border: 3px solid black;
+    border-right: none;
+    border-top: none;
+    transform: rotate(315deg);
+}
+
+div#cont-gravata02 {
+    position: relative;
+    top: -33px;
+    left: 30px;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    border: 3px solid black;
+    border-right: none;
+    border-top: none;
+    transform: rotate(315deg);
+}
+
+div#cima-gravata {
+    position: absolute;
+    top: -2px;
+    left: 111px;
+    background-color: red;
+    border: 2px solid black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 25px;
+    height: 15px;
+}
+
+div#baixo-gravata {
+    position: absolute;
+    top: 15px;
+    left: 112px;
+    background-color: red;
+    border: 2px solid black;
+    width: 25px;
+    height: 25px;
+    transform: rotate(310deg);
+}
+
+div#baixo-short {
+    position: initial;
+    width: 250px;
+    height: 50px;
+    background-color: saddlebrown;
+}
+
+div.detalhe-short {
+    position: initial;
+    width: 45px;
+    height: 7px;
+    margin-left: 12px;
+    margin-top: 15px;
+    background-color: black;
+    display: inline-block;
+}
